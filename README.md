@@ -39,3 +39,12 @@ CMD ["-D","FOREGROUND"]
 
 $ docker pull alpine
 $ docker images  
+$ docker run -itd -p 8080:80 apache:webserver
+$ docker run -itd alpine
+$ docker exec -it 178bfb0cc787 sh
+
+/ # id
+/ # exit
+
+$ docker run -itd --name nanolinux alpine
+$ docker ps
