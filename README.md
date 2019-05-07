@@ -37,4 +37,5 @@ EXPOSE 80
 ENTRYPOINT ["/usr/sbin/apache2ctl"]  
 CMD ["-D","FOREGROUND"]  
 
+$ docker pull alpine
 $ docker images  
